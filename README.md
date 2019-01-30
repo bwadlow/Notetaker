@@ -102,18 +102,3 @@ Look at the gif below to see how the app should look and behave. These are the b
 - [ ] Implement the filter to search through your notes list by title.
 
 ![result](react-evernote-filter.gif)
-
-## Stretch Goals
-
-When you are finished with the *Delieverables*, you can build out any new features that you want. This is your chance to be creative and make your project unique!
-
-Some suggestions:
-
-- Add the ability to filter by body, date created, date edited, etc.
-- Sorting by date created, date edited, alphabetical, etc.
-- Use `react-router` to create a multi-page app
-- User signup & login
-- Sharing notes with other users
-- Rich text formatting
-- Tagging
-- Emailing notes
