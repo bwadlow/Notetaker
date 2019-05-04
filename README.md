@@ -1,20 +1,9 @@
-README: React Evernote
+README: React Notetaker
 ======================
-
-Task Lister is making its return in React! However, this time we'll be kicking it up a notch and using that same backend to drive an Evernote-like frontend built in React.
-
-Your goal will be to complete the baseline deliverables using the provided starter code and then make this project your own by building out unique stretch goals. Some suggestions are listed below, but try to be creative!
-
-## Requirements
-
-- [ ] Complete all of the *Deliverables*.
-- [ ] Build out at least 1 stretch goal feature.
 
 ## Setup
 
-The codebase is split up into a Rails API backend and a React frontend. Everything is contained in this single repository. Your Rails code is located inside of the `backend` folder and your React code is located inside of the `frontend` folder.
-
-Each of those folders has a README file with setup instructions. For conciseness, those instructions are copy pasted here:
+The codebase is split up into a Rails API backend and a React frontend. Everything is contained in this single repository. Rails code is located inside of the `backend` folder and React code is located inside of the `frontend` folder.
 
 ### Frontend
 
@@ -34,8 +23,7 @@ bundle install
 rails db:create db:migrate db:seed
 rails s
 ```
-
-Your Rails backend API will be running on `http://localhost:3000`.
+Rails backend API will be running on `http://localhost:3000`.
 
 #### User ID
 
@@ -50,32 +38,7 @@ The seed file should create one user for you, so your default `USER_ID` should b
 | POST   | `/api/v1/notes`     | `'Content-Type': 'application/json'`<br/>`'Accept': 'application/json'` | title, body, user_id |
 | PATCH  | `/api/v1/notes/:id` | `'Content-Type': 'application/json'`<br/>`'Accept': 'application/json'` | title, body, user_id |
 
-**Tips:**
 
-* Test out your routes with [Postman](https://www.getpostman.com/) to see how they work and what they return.
-* Look at the source code! There are many more routes that are not listed that may make your life easier. Use those development skills and hack the code!
-
-## Provided Code
-
-**Backend**
-
-* The entire backend API is complete for the baseline deliverables.
-* You should not have to modify this code unless you want to add stretch features that are not currently supported by this API.
-
-**Frontend**
-
-* All CSS styles are provided for you.
-* Many components are provided for you, but most are not completely functional. It is your job to read the code and figure out how to incorporate it into your app.
-
-## Deliverables
-
-Look at the gif below to see how the app should look and behave. These are the baseline deliverables you need to complete:
-
-**Viewing and Displaying Notes**
-
-- [ ] Display all notes in the left sidebar.
-- [ ] Displayed sidebar notes should show the title and a truncated body.
-- [ ] When clicking a note from the sidebar, display its contents in the right panel.
 
 ![result](react-evernote-display.gif)
 
